@@ -10,7 +10,7 @@ Template Name: Home
 <div class="home_container">
     <a href="<?php echo esc_url( home_url( '/crac-19' ) ); ?>" class="image-link">
         <div class="rectangle">
-            <img class="home_photo" src="<?php echo wp_get_attachment_url(165, 'large'); ?>">
+            <img class="home_photo" src="<?php echo wp_get_attachment_url(182, 'large'); ?>">
             <p class="home_project2">Crac 19</p>
         </div>
     </a>
@@ -37,13 +37,17 @@ Template Name: Home
 
 <div>
     <h2 class="home_h2">On reste en contact ?</h2>
-    <div class="home_link">
-        <?php echo wp_get_attachment_image(173, 'small'); ?>
-        <p class="contact_text">07.82.42.94.56</p>
+    <div>
+        <a href="tel:" class="home_link">   
+            <?php echo wp_get_attachment_image(173, 'small'); ?>
+            <p class="contact_text">07.82.42.94.56</p>
+        </a> 
     </div>
-    <div class="home_link">
-        <?php echo wp_get_attachment_image(172, 'small'); ?>
-        <p class="contact_text">emma.wettle@gmail.com</p>
+    <div>
+        <a href="mailto:" class="home_link">
+            <?php echo wp_get_attachment_image(172, 'small'); ?>
+            <p class="contact_text">emma.wettle@gmail.com</p>
+        </a>
     </div>
 </div>
 

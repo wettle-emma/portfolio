@@ -28,11 +28,13 @@ Template Name: projets
         echo '<div class="projets_groupe">';
         while ( $the_query->have_posts() ) {
             $the_query->the_post();
+            echo '<a href="' . get_permalink() . '">';
             echo '<div class="">';
             the_post_thumbnail("thumbnail");
-            echo '<a href="' . get_permalink() . '">' . the_title("<h1 class='project_title'>", "</h1>", false) . '</a>';
+            echo the_title("<h1 class='project_title'>", "</h1>", true); // Changed false to true
             the_content();
             echo '</div>';
+            echo '</a>';
         }
     echo '</div>';
     } else {
@@ -62,11 +64,13 @@ Template Name: projets
         echo '<div class="projets_groupe">';
         while ( $the_query->have_posts() ) {
             $the_query->the_post();
+            echo '<a href="' . get_permalink() . '">';
             echo '<div class="">';
             the_post_thumbnail("thumbnail");
-            echo '<a href="' . get_permalink() . '">' . the_title("<h1 class='project_title'>", "</h1>", false) . '</a>';
+            echo the_title("<h1 class='project_title'>", "</h1>", true); // Changed false to true
             the_content();
             echo '</div>';
+            echo '</a>';
         }
     echo '</div>';
     } else {
@@ -96,11 +100,13 @@ Template Name: projets
         echo '<div class="projets_groupe">';
         while ( $the_query->have_posts() ) {
             $the_query->the_post();
+            echo '<a href="' . get_permalink() . '">';
             echo '<div class="">';
             the_post_thumbnail("thumbnail");
-            echo '<a href="' . get_permalink() . '">' . the_title("<h1 class='project_title'>", "</h1>", false) . '</a>';
+            echo the_title("<h1 class='project_title'>", "</h1>", true); // Changed false to true
             the_content();
             echo '</div>';
+            echo '</a>';
         }
     echo '</div>';
     } else {

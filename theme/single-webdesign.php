@@ -30,8 +30,8 @@
             <div class="projet_texte2"><?php the_field("solution"); ?></div>
           </div>
 
-          <a class="projet_lien" href="<?php the_field("lien"); ?>">
-            <p>Lien du projet</p>
+          <a  href="<?php the_field("lien"); ?>">
+            <p class="projet_lien">Lien du projet</p>
           </a>
 
             <div class="projet_maquette">

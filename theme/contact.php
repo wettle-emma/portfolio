@@ -8,13 +8,17 @@ Template Name: contact
 <h1 class="title">Contactez-moi</h1>
 
 <div class="contact">
-<div class="home_link">
-        <?php echo wp_get_attachment_image(173, 'small'); ?>
-        <p class="contact_text">07.82.42.94.56</p>
+<div>
+        <a href="tel:" class="home_link">   
+            <?php echo wp_get_attachment_image(173, 'small'); ?>
+            <p class="contact_text">07.82.42.94.56</p>
+        </a> 
     </div>
-    <div class="home_link">
-        <?php echo wp_get_attachment_image(172, 'small'); ?>
-        <p class="contact_text">emma.wettle@gmail.com</p>
+    <div>
+        <a href="mailto:" class="home_link">
+            <?php echo wp_get_attachment_image(172, 'small'); ?>
+            <p class="contact_text">emma.wettle@gmail.com</p>
+        </a>
     </div>
 </div>
 

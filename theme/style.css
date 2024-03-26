@@ -174,7 +174,7 @@ footer a {
 .home_project {
   position: absolute;
   font-family: "Bangers", cursive;
-  font-size: 96px;
+  font-size: 106px;
   color: #0f372b;
   margin-bottom: 2em;
   margin-left: -2em;
@@ -183,20 +183,20 @@ footer a {
 .home_project2 {
   position: absolute;
   font-family: "Bangers", cursive;
-  font-size: 96px;
+  font-size: 106px;
   color: #0f372b;
   margin-top: 3em;
-  margin-left: 12em;
+  margin-left: 10em;
 }
 
 .home_project3 {
   position: absolute;
   font-family: "Bangers", cursive;
-  font-size: 96px;
+  font-size: 106px;
   color: #0f372b;
   z-index: 1;
   margin-top: 3em;
-  margin-left: 12.5em;
+  margin-left: 10.5em;
 }
 
 .home_link {
@@ -207,6 +207,7 @@ footer a {
   color: #0f372b;
   margin-top: 60px;
   margin-left: 8em;
+  text-decoration: none;
 }
 
 .contact_text {
@@ -254,7 +255,6 @@ button a {
 }
 
 .bandeau {
-  background-color: #226a56;
   height: auto;
   width: 100%;
   margin-top: 30px;
@@ -266,8 +266,8 @@ button a {
 
 .texte_bandeau {
   font-family: "Bangers", cursive;
-  font-size: 48px;
-  color: #fff0de;
+  font-size: 64px;
+  color: #226a56;
   white-space: nowrap;
   animation: scroll 3s linear infinite;
   margin-right: 10px;
@@ -277,8 +277,8 @@ button a {
 
 .texte_bandeau2 {
   font-family: "Bangers", cursive;
-  font-size: 48px;
-  color: #fff0de;
+  font-size: 58px;
+  color: #226a56;
   white-space: nowrap;
   animation: scroll2 3s linear infinite;
   margin-right: 10px;
@@ -292,7 +292,7 @@ button a {
   }
 
   to {
-      transform: translateX(-13vw);
+      transform: translateX(-17vw);
   }
 }
 
@@ -302,7 +302,7 @@ button a {
   }
 
   to {
-      transform: translateX(-17.5vw);
+      transform: translateX(-20.75vw);
   }
 }
 
@@ -311,7 +311,7 @@ button a {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .formulaire {
@@ -466,8 +466,8 @@ a {
 }
 
 .projet_lien {
-  margin-bottom: 100px;
-  padding-left: 40px;
+  margin-bottom: 50px;
+  margin-left: 30px;
   font-family: montserrat, sans-serif;
   font-size: 24px;
 }
@@ -821,7 +821,7 @@ a {
 
   .rectangle2 {
     margin-top: 80px;
-    width: 80%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -881,6 +881,7 @@ a {
     color: #0f372b;
     margin-top: 20px;
     margin-left: 1.5em;
+    text-decoration: none;
   }
 
   .contact_text {
@@ -935,7 +936,6 @@ a {
   }
 
   .bandeau {
-    background-color: #226a56;
     width: 100%;
     height: auto;
     margin-top: 30px;
@@ -943,15 +943,15 @@ a {
 
   .texte_bandeau {
     font-family: "Bangers", cursive;
-    font-size: 24px;
-    color: #fff0de;
+    font-size: 36px;
+    color: #226a56;
     text-align: center;
   }
 
   .texte_bandeau2 {
     font-family: "Bangers", cursive;
-    font-size: 24px;
-    color: #fff0de;
+    font-size: 36px;
+    color: #226a56;
     text-align: center;
   }
 
@@ -962,7 +962,7 @@ a {
     }
   
     to {
-        transform: translateX(-28vw);
+        transform: translateX(-39.5vw);
     }
   }
 
@@ -972,7 +972,7 @@ a {
     }
   
     to {
-        transform: translateX(-36.5vw);
+        transform: translateX(-52.5vw);
     }
   }
 
@@ -1009,7 +1009,7 @@ a {
   input[type="email"],
   textarea {
     display: block;
-    width: 70%;
+    width: 85%;
     height: 1.5em;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -1155,6 +1155,7 @@ a {
   .bento {
     display: flex;
     flex-direction: column;
+    gap: 20px;
   }
 
   .un {
@@ -1206,6 +1207,7 @@ a {
     font-family: "Bangers", cursive;
     font-size: 24px;
     color: #fff0de;
+    margin-left: 20px;
   }
 
   .deux {
@@ -1216,18 +1218,22 @@ a {
     background-color: #226a56;
     width: auto;
     height: auto;
-    border-radius: 50px;
+    border-radius: 35px;
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 
   .quatre {
     background-color: #9f5237;
     width: auto;
     height: auto;
-    border-radius: 50px;
+    border-radius: 35px;
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 
   .cinq {
@@ -1254,9 +1260,11 @@ a {
     background-color: #0f372b;
     width: 90%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 35px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 
   .neuf {
@@ -1267,7 +1275,7 @@ a {
     background-color: #9f5237;
     width: 132px;
     height: 118px;
-    border-radius: 60px;
+    border-radius: 50px;
     margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
@@ -1280,11 +1288,13 @@ a {
 
   .onze {
     background-color: #9f5237;
-    width: 50%;
+    width: 35%;
     height: auto;
-    border-radius: 70px;
+    border-radius: 60px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 
   .onze_icons {
@@ -1300,11 +1310,13 @@ a {
     background-color: #226a56;
     width: 90%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 35px;
     display: flex;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
   }
 
   .douze_lien {
@@ -1454,7 +1466,6 @@ a {
 
   .rectangle2 {
     margin-top: 150px;
-    margin-right: auto;
     margin-left: auto;
    margin-bottom: 50px;
   }
@@ -1512,7 +1523,9 @@ a {
     color: #0f372b;
     margin-top: 0px;
     margin-left: 4em;
+    text-decoration: none;
   }
+
 
   .contact_text {
     font-family: montserrat, sans-serif;
@@ -1558,7 +1571,6 @@ a {
   }
 
   .bandeau {
-    background-color: #226a56;
     width: 100%;
     height: auto;
     margin-top: 30px; 
@@ -1566,15 +1578,15 @@ a {
 
   .texte_bandeau {
     font-family: "Bangers", cursive;
-    font-size: 36px;
-    color: #fff0de;
+    font-size: 48px;
+    color: #226a56;
     text-align: center;
   }
 
   .texte_bandeau2 {
     font-family: "Bangers", cursive;
-    font-size: 36px;
-    color: #fff0de;
+    font-size: 48px;
+    color: #226a56;
     text-align: center;
   }
 
@@ -1584,7 +1596,7 @@ a {
     }
   
     to {
-        transform: translateX(-19vw);
+        transform: translateX(-24.5vw);
     }
   }
 
@@ -1594,7 +1606,7 @@ a {
     }
   
     to {
-        transform: translateX(-25vw);
+        transform: translateX(-32.75vw);
     }
   }
 
@@ -1814,7 +1826,7 @@ a {
 
   .bento_bigtext {
     font-family: "Bangers", cursive;
-    font-size: 40px;
+    font-size: 44px;
     color: #fff0de;
     padding-left: 3em;
     padding-right: 3em;
@@ -1824,6 +1836,7 @@ a {
     font-family: "Bangers", cursive;
     font-size: 28px;
     color: #fff0de;
+    margin-left: 20px;
   }
 
   .deux {
@@ -1834,18 +1847,22 @@ a {
     background-color: #226a56;
     width: auto;
     height: auto;
-    border-radius: 50px;
+    border-radius: 40px;
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .quatre {
     background-color: #9f5237;
     width: auto;
     height: auto;
-    border-radius: 50px;
+    border-radius: 40px;
     margin-left: 1em;
     margin-right: 1em;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .cinq {
@@ -1872,9 +1889,11 @@ a {
     background-color: #0f372b;
     width: 90%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 40px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .neuf {
@@ -1900,9 +1919,11 @@ a {
     background-color: #9f5237;
     width: auto;
     height: auto;
-    border-radius: 70px;
+    border-radius: 60px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .onze_icons {
@@ -1917,11 +1938,13 @@ a {
     background-color: #226a56;
     width: 90%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 40px;
     display: flex;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 5%;
+    padding-top: 5%;
   }
 
   .douze_lien {
